@@ -1,7 +1,8 @@
 import requests
-from bs4 import BeautifulSoup
 import os
 import re
+import time
+from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -41,3 +42,5 @@ if verifica_estoque(AMAZON_URL_Pro_Controle):
     enviar_mensagem(f"🚨 Pro Controle 2 disponível! Veja: {AMAZON_URL_Pro_Controle}")
 else:
     enviar_mensagem(f"🕹️ Pro Controle 2 indisponível no momento")
+
+time.sleep(120)
