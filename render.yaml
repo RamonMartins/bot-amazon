@@ -4,4 +4,4 @@ services:
     runtime: python
     schedule: "*/15 * * * *"  # A cada 15 minutos
     buildCommand: ""
-    startCommand: "python verifica_estoque.py"
+    startCommand: "python verifica_estoque_2.0.py"
