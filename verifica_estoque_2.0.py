@@ -40,4 +40,4 @@ else:
 if verifica_estoque(AMAZON_URL_Pro_Controle):
     enviar_mensagem(f"🚨 Pro Controle 2 disponível! Veja: {AMAZON_URL_Pro_Controle}")
 else:
-    enviar_mensagem(f"🎮 Pro Controle 2 indisponível no momento")
+    enviar_mensagem(f"🕹️ Pro Controle 2 indisponível no momento")
