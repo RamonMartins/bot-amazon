@@ -35,9 +35,9 @@ def enviar_mensagem(texto):
 if verifica_estoque(AMAZON_URL_Zelda_BOTW):
     enviar_mensagem(f"🚨 Zelda - Breath of the Wild disponível! Veja: {AMAZON_URL_Zelda_BOTW}")
 else:
-    enviar_mensagem(f"😢 Zelda - Breath of the Wild indisponível no momento.")
+    enviar_mensagem(f"😢 Zelda - BOTW indisponível no momento.")
 
 if verifica_estoque(AMAZON_URL_Pro_Controle):
     enviar_mensagem(f"🚨 Pro Controle 2 disponível! Veja: {AMAZON_URL_Pro_Controle}")
 else:
-    enviar_mensagem(f"😢 Pro Controle 2 indisponível no momento.")
+    enviar_mensagem(f"😢 Pro Controle 2 indisponível no momento")
