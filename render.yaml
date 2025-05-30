@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: bot-amazon-verifica
+    runtime: python
+    schedule: "*/15 * * * *"  # A cada 15 minutos
+    buildCommand: ""
+    startCommand: "python verifica_estoque.py"
