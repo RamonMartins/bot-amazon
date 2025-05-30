@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-AMAZON_URL_Zelda_BOTW = os.environ.get("AMAZON_URL_Zelda_BOTW")
-AMAZON_URL_Pro_Controle = os.environ.get("AMAZON_URL_Pro_Controle")
+AMAZON_URL_Zelda_BOTW = "https://www.amazon.com.br/Jogo-Legend-Zelda-Breath-Wild/dp/B0F6DFZTD7/ref=zg_bs_g_16253312011_d_sccl_18/133-0259660-9610166"
+AMAZON_URL_Pro_Controle = "https://www.amazon.com.br/dp/B0F6CY514C/?coliid=I2HZFZQ8CDXL89&colid=32KPQT0UZVH83&psc=0&ref_=list_c_wl_lv_ov_lig_dp_it"
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
