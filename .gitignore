@@ -1,0 +1,5 @@
+# Arquivos/Pastas que serão ignorados
+
+/venv
+.env
+ids-telegram.txt
