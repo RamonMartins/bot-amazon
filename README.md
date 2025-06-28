@@ -20,20 +20,20 @@ O Chat ID do Telegram deve ser um valor semelhante a este(Alterei os valores rea
 (Essas informações são confidenciais, portanto guarde-os bem)
 
 
-### Instruções para Executar:
+## Instruções para Executar:
 (Certifique de ter o pyhton instalado em sua máquina)
 
 1 - Abra o projeto na IDE de sua preferência
 
 2 - Abra o terminal na IDE e digite os comandos abaixos
 
-    Caso queira instalar uma máquina virtual
-    
-    2.1 - Para criar a máquina virtual digite o comando:
-        `python -m venv venv`
+Caso queira instalar uma máquina virtual:
 
-    2.2 - Para executá-la depois da máquina ter sido criada digite o comando:
-        `venv\Scripts\activate`
+2.1 - Para criar a máquina virtual digite o comando:
+    `python -m venv venv`
+
+2.2 - Para executá-la depois da máquina ter sido criada digite o comando:
+    `venv\Scripts\activate`
 
 3 - Para instalar as dependências necessárias digite o comando:
     `pip install -r requirements.txt`
@@ -42,7 +42,7 @@ O Chat ID do Telegram deve ser um valor semelhante a este(Alterei os valores rea
     `python verifica_estoque.py`
 
 
-### Instruções para executar após reiniciar o Computador
+## Instruções para executar após reiniciar o Computador
 
 1 - Abra a IDE e nela abra o terminal
 
