@@ -46,8 +46,10 @@ Caso queira instalar uma máquina virtual:
 
 1 - Abra a IDE e nela abra o terminal
 
-2 - Como a máquina virtual já esta criada, basta ativá-la:
+Caso você tenha criado a máquina virtual, precisa ativá-la:
+
+1.1 - Como a máquina virtual já esta criada, basta ativá-la:
     `venv\Scripts\activate`
 
-4 - Por fim, execute o programa com o comando:
+2 - Por fim, execute o programa com o comando:
     `python verifica_estoque.py`
